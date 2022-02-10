@@ -1,0 +1,44 @@
+
+div {
+    margin:auto;
+
+}
+
+.clock-bg {
+    margin:auto;
+    position: absolute;
+    
+}
+
+
+span {
+    top:255px;
+    left:130px;
+    background-color: rgb(46, 202, 72);
+    width:126px;
+    height: 2px;
+    display: inline-block;
+    animation-name: tick;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    transform-origin: 126px 0;
+    animation-iteration-count:infinite;
+    position: absolute;
+
+}
+
+@keyframes tick {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+        
+    }
+
+    
+    
+
+    
+}
